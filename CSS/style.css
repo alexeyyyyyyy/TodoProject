@@ -1,0 +1,116 @@
+body {
+    background-color: rgba(0, 0, 0, 0.94);
+}
+body h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #1d6f85;
+}
+.field {
+    display: flex;
+    padding: 10px;
+    width: 29%;
+    margin-left: 35.5%;
+    color: #fae8e8;
+    font-size: 1.3em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    border: 2px solid #0a0a01;
+    background-color: rgba(0, 251, 255, 0.73);
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 80%;
+    text-align: center;
+}
+
+.box:last-child {
+    margin-bottom: 0;
+}
+
+button.btn {
+    margin-right: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 0.65em;
+    color: #e3c6c6;
+    outline: none;
+}
+
+textarea{
+    resize: none;
+    background-color: #fafafa;
+    border: 1.5px solid silver;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 0.7em;
+    width: 90%;
+    outline: none;
+}
+
+textarea:focus{
+    border: 1.5px solid #6d79cd;
+}
+
+.btn.new{
+    background-color: #dd567e;
+    border: 2px solid #c93964;
+    margin-bottom: 10px;
+}
+
+.btn.new:hover{
+    background-color: #c93964;
+    border: 2px solid #ac254d;
+}
+
+.btn.success{
+    background-color: #4fc966;
+    border: 2px solid #2aa24f;
+    font-size: 15px;
+}
+
+.btn.success:hover{
+    background-color: #2aa24f;
+    border: 2px solid #1e853e;
+}
+
+.btn.light {
+    background-color: #4eafc9;
+    border: 2px solid #2a89a2;
+    font-size: 15px;
+}
+
+.btn.red {
+    font-size: 15px;
+    background-color: #e11132;
+    border: 1px solid black;
+}
+
+.btn.light:hover {
+    background-color: #2a89a2;
+    border-color: #1d6f85;
+}
+
+.btn.red:hover {
+    background-color: #b6821a;
+    border-color: #946912;
+}
+label {
+    font-size: 25px;
+    color: #0a0a01;
+}
+li {
+    font-size: 30px;
+    color: #000000;
+}
+label #checkbox {
+    font-size: 10px;
+}
+.btn.white {
+    font-size: 15px;
+    background-color: #ffffff;
+    border: 1px solid black;
+}
